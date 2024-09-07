@@ -1,0 +1,17 @@
+.slide-show{
+    position: relative;
+}
+.slide-show img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    transition: opacity 0.5s;
+
+}
+.item-active{
+    opacity: 1;
+    
+}
