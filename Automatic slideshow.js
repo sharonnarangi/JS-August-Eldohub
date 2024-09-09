@@ -3,7 +3,7 @@ const slides = document.querySelectorAll('img');
 let currentImageIndex = 0
 
 function nextImage(){
-    Image[currentImageIndex].classlist.remove('active');
+    slides[currentImageIndex].classList.remove('active');
     currentImageIndex = (currentImageIndex + 1) % slides.length;
     slides[currentImageIndex].classList.add('active');
 }

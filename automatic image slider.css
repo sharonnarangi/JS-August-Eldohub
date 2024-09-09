@@ -1,5 +1,6 @@
 .nara-slider{
     position: relative;
+    height: 100vh;
 }
 .nara-slider img{
     position: absolute;
@@ -15,6 +16,6 @@
     opacity: 1;
     
 }
-.nara-slider img:(.active){
+.nara-slider img:not(.active){
     opacity: 0;
 }
