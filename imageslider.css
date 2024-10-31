@@ -1,0 +1,17 @@
+.nara-slider{
+    height: 500px;
+    width: 800px;
+    border: 2px solid pink;
+
+}
+
+.item{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: none;
+
+}
+.item.active{
+    display:block ;
+}
